@@ -267,7 +267,7 @@ def get_api():
 
 @app.route('/', methods=('GET', 'POST'))
 def hello():
-    return '<h1 style="background-color: #262626; color: white; padding: 20px; text-align:center;">Hello, Crashell!</h1>'
+    return '<h1 style="background-color: #262626; color: white; padding: 20px; text-align:center;"> Servidor flask corriendo en docker </h1>'
 
 
 @app.route('/reservas/usuario/<usuario_id>', methods=['GET'])
